@@ -7,7 +7,7 @@ echo "How many files are there in directory?"
 
 
 
-function fun{
+function fun {
 echo "This statement is in a function!"
 }
 
