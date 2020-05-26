@@ -3,9 +3,15 @@
 
 #displaying welcome note
 echo "Welcome to my guessinggame"
-echo "How many files are there in current directory?"
+echo "How many files are there in directory?"
 
 
+
+function fun{
+echo "This statement is in a function!"
+}
+
+fun
 
 files=$(pwd | ls | wc -l)  #counting the number of files present
 
